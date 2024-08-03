@@ -1,0 +1,16 @@
+#wrapper {
+	background-position: center;
+	background-color:#EBFEEF;
+	width:70%;
+	margin: 5% auto; 
+	padding: 5pt;
+	text-align:center;
+}
+
+#img2 {
+	background-position:center;
+	width:70%;
+	margin:10% auto;
+	padding:15px;
+	text-align:center;
+}

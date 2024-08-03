@@ -1,0 +1,124 @@
+body{
+	background-color:#000000;
+	background-image:url("../IMAGES/03.gif");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0;
+}
+
+#wrapper {
+	background-position: center;
+	background-color:#E1FCFD;
+	width:70%;
+	margin: 5% auto; 
+	padding: 5pt;
+	text-align:center;
+}
+
+#img {
+	background-color:#EBFEEF;
+	background-position:center;
+	width:40%;
+	margin: 10%;
+	text-align:center;
+}
+
+#img2 {
+	background-position: center;
+	width:70%;
+	margin: 5% auto; 
+	padding: 5pt;
+	text-align:center;
+}
+
+h1 {
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:40pt;
+	color:#3075C9;
+}
+
+h2 {
+	font-family:Trebuchet, Arial, sans-serif;
+	font-size:24pt;
+	color:#2F5F80;
+}
+
+p {
+	font-family:Trebuchet, Arial, sans-serif;
+	font-size:18pt;
+	color:#0E3975;
+}
+
+a:link {
+	font-family:Trebuchet, Arial, sans-serif;
+	font-size:18pt;
+}
+
+a:link {
+	color:#4B97B3;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#0F6375;
+	text-decoration:italic;
+}
+
+a:active {
+	color:;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FFA085;
+	text-decoration:none;
+	
+#loader {
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 z-index: 1;
+	 width: 150px;
+	 height: 150px;
+	 margin: -75px 0 0 -75px;
+	 border: 16px solid #f3f3f3;
+	 border-radius: 50%;
+	 border-top: 16px solid #3498db;
+	 width: 120px;
+	 height: 120px;
+	 -webkit-animation: spin 2s linear infinite;
+	 animation: spin 2s linear infinite;
+	}
+
+@-webkit-keyframes spin {
+	  0% { -webkit-transform: rotate(0deg); }
+	  100% { -webkit-transform: rotate(360deg); }
+	}
+
+@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+
+.animate-bottom {
+	  position: relative;
+	  -webkit-animation-name: animatebottom;
+	  -webkit-animation-duration: 1s;
+	  animation-name: animatebottom;
+	  animation-duration: 1s
+	}
+
+@-webkit-keyframes animatebottom {
+	  from { bottom:-100px; opacity:0 } 
+	  to { bottom:0px; opacity:1 }
+	}
+
+@keyframes animatebottom { 
+	  from{ bottom:-100px; opacity:0 } 
+	  to{ bottom:0; opacity:1 }
+	}
+
+#wrapper {
+	  display: none;
+	  text-align: center;
